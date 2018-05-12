@@ -8,6 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Animal : NSObject
+@interface Animal : NSObject<NSCoding>
+
+@property (nonatomic,strong) NSString *name;
+@property (nonatomic,assign) NSInteger age;
+@property (nonatomic,strong) NSString *gender;
+
+- (void)initWithPrivateVar:(NSString *)privateVar;
+
+- (void)logOneAnimal;
 
 @end

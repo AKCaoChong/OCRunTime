@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^btnBlock)();
+
 @interface UIButton (Block)
+
+-(void)handleWithBlock:(btnBlock)block;
 
 @end

@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^successBlock)(NSInteger buttonIndex);
+typedef void(^cancelBlock)();
 @interface UIAlertView (Block)
+
+- (void)showWithBlock:(successBlock)block cancel:(cancelBlock)cancel;
 
 @end

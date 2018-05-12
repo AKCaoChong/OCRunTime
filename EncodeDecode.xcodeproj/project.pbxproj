@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		241F9CD020A41C3700D5C5C9 /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 241F9CCF20A41C3700D5C5C9 /* UIAlertView+Block.m */; };
+		241F9CD320A4272F00D5C5C9 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 241F9CD220A4272F00D5C5C9 /* UIButton+Block.m */; };
 		242340A520A2D8B600B5E76F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 242340A420A2D8B600B5E76F /* AppDelegate.m */; };
 		242340A820A2D8B600B5E76F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 242340A720A2D8B600B5E76F /* ViewController.m */; };
 		242340AB20A2D8B600B5E76F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 242340A920A2D8B600B5E76F /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		242340B320A2D8B600B5E76F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 242340B220A2D8B600B5E76F /* main.m */; };
 		242340BD20A2D8B600B5E76F /* EncodeDecodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 242340BC20A2D8B600B5E76F /* EncodeDecodeTests.m */; };
 		242340C820A2D8B600B5E76F /* EncodeDecodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 242340C720A2D8B600B5E76F /* EncodeDecodeUITests.m */; };
+		242340D720A2D90C00B5E76F /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 242340D620A2D90C00B5E76F /* Animal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		241F9CCE20A41C3700D5C5C9 /* UIAlertView+Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Block.h"; sourceTree = "<group>"; };
+		241F9CCF20A41C3700D5C5C9 /* UIAlertView+Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Block.m"; sourceTree = "<group>"; };
+		241F9CD120A4272F00D5C5C9 /* UIButton+Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		241F9CD220A4272F00D5C5C9 /* UIButton+Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
 		242340A020A2D8B600B5E76F /* EncodeDecode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncodeDecode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		242340A320A2D8B600B5E76F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		242340A420A2D8B600B5E76F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +58,8 @@
 		242340C320A2D8B600B5E76F /* EncodeDecodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncodeDecodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		242340C720A2D8B600B5E76F /* EncodeDecodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncodeDecodeUITests.m; sourceTree = "<group>"; };
 		242340C920A2D8B600B5E76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		242340D520A2D90C00B5E76F /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		242340D620A2D90C00B5E76F /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				242340A420A2D8B600B5E76F /* AppDelegate.m */,
 				242340A620A2D8B600B5E76F /* ViewController.h */,
 				242340A720A2D8B600B5E76F /* ViewController.m */,
+				241F9CCE20A41C3700D5C5C9 /* UIAlertView+Block.h */,
+				241F9CCF20A41C3700D5C5C9 /* UIAlertView+Block.m */,
+				241F9CD120A4272F00D5C5C9 /* UIButton+Block.h */,
+				241F9CD220A4272F00D5C5C9 /* UIButton+Block.m */,
+				242340D520A2D90C00B5E76F /* Animal.h */,
+				242340D620A2D90C00B5E76F /* Animal.m */,
 				242340A920A2D8B600B5E76F /* Main.storyboard */,
 				242340AC20A2D8B600B5E76F /* Assets.xcassets */,
 				242340AE20A2D8B600B5E76F /* LaunchScreen.storyboard */,
@@ -266,6 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				242340A820A2D8B600B5E76F /* ViewController.m in Sources */,
+				242340D720A2D90C00B5E76F /* Animal.m in Sources */,
+				241F9CD020A41C3700D5C5C9 /* UIAlertView+Block.m in Sources */,
+				241F9CD320A4272F00D5C5C9 /* UIButton+Block.m in Sources */,
 				242340B320A2D8B600B5E76F /* main.m in Sources */,
 				242340A520A2D8B600B5E76F /* AppDelegate.m in Sources */,
 			);
@@ -431,7 +449,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5AKB523DZ4;
 				INFOPLIST_FILE = EncodeDecode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thundersoft.EncodeDecode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,7 +464,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5AKB523DZ4;
 				INFOPLIST_FILE = EncodeDecode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thundersoft.EncodeDecode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
